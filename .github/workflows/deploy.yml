@@ -2,10 +2,9 @@ name: Javadoc
 
 on:
   workflow_dispatch:
-
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-autoscale
 
     steps:
       - uses: actions/checkout@v3
